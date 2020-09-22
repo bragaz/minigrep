@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de6e1496-4447-4fa0-b0ce-0a4253ed8cda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +42,12 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -39,32 +55,59 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cargo Command.Test tests::one_result">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run" />
+      <option name="command" value="test --package minigrep --lib tests" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test tests::one_result" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package minigrep --lib tests::one_result -- --exact" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Test tests::one_result" />
+        <item itemvalue="Cargo Command.Test lib::tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600783128164</updated>
-      <workItem from="1600783129227" duration="650000" />
+      <workItem from="1600783129227" duration="2818000" />
+      <workItem from="1600786011663" duration="3513000" />
     </task>
     <task id="LOCAL-00001" summary="project setup">
       <created>1600783491379</created>
@@ -83,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600783491379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project setup">
+      <created>1600783850596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600783850596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,17 +145,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="project setup" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="134" key="CommitChangelistDialog2" timestamp="1600783491297">
+    <state x="567" y="134" key="CommitChangelistDialog2" timestamp="1600783850509">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="567" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600783491297" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600783493874">
+    <state x="567" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600783850509" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1600789538997">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600783493874" />
-    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600783804699">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789538997" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1600789538995">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600783804699" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789538995" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1600789538993">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789538993" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1600789538996">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789538996" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600783912074">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600783912074" />
+    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600784027886">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600784027886" />
   </component>
 </project>
