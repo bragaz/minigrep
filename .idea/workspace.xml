@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="de6e1496-4447-4fa0-b0ce-0a4253ed8cda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,7 @@
       <updated>1600783128164</updated>
       <workItem from="1600783129227" duration="2818000" />
       <workItem from="1600786011663" duration="6263000" />
-      <workItem from="1600852032949" duration="326000" />
+      <workItem from="1600852032949" duration="3036000" />
     </task>
     <task id="LOCAL-00001" summary="project setup">
       <created>1600783491379</created>
@@ -168,7 +168,35 @@
       <option name="project" value="LOCAL" />
       <updated>1600789729331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added case insensitve option with env var&#10;print output on file">
+      <created>1600852534678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600852534678</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added folder to gitignore">
+      <created>1600852567330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600852567330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed idea folder with gitignore">
+      <created>1600852612439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600852612439</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added idea folder to gitignore">
+      <created>1600852658751</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600852658751</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,13 +205,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project setup" />
     <MESSAGE value="finished mini grep" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished mini grep" />
+    <MESSAGE value="added case insensitve option with env var&#10;print output on file" />
+    <MESSAGE value="added folder to gitignore" />
+    <MESSAGE value="removed idea folder with gitignore" />
+    <MESSAGE value="added idea folder to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added idea folder to gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="567" y="134" key="CommitChangelistDialog2" timestamp="1600789729232">
+    <state x="567" y="134" key="CommitChangelistDialog2" timestamp="1600852658649">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="567" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789729232" />
+    <state x="567" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600852658649" />
     <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1600852015417">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -200,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600852015416" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600789940913">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1600852662466">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600789940913" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600852662466" />
     <state x="773" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600790050483">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

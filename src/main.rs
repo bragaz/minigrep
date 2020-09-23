@@ -2,14 +2,8 @@ use std::{env, process};
 use minigrep;
 
 fn main() {
-    // collect convert the CLI iterator to a vector of string
-    let args: Vec<String> = env::args().collect();
-
-    // {:?} is the debug formatter and let to print the vector below
-    println!("{:?}", args);
-
     // unwrap_or_else read the Result<T,E> and return the type if there's some or the error
-    let config = minigrep::Config::new_config(args.as_slice())
+    let config = minigrep::Config::new_config(env::args())
         .unwrap_or_else(|err| {
         eprintln!("{}", err);
         // this line stops the execution immediately
